@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>МодОпТорг</title>
+    <!--[if (gte IE 6)&(lt IE 9)]>
+      <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script type="text/javascript" src="js/selectivizr-min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen">
+  </head>
+  <body>
+
+    <section id="access-panel" class="popup">
+      <a href="#" class="close-button modalCloseImg inner" title="Закрыть окно"></a>
+      <div class="popup-container">
+        <div class="ie-bg angle-left-top"></div>
+        <div class="ie-bg angle-right-top"></div>
+        <div class="ie-bg angle-left-bottom"></div>
+        <div class="ie-bg angle-right-bottom"></div>
+        <div class="ie-bg side-top"></div>
+        <div class="ie-bg side-left"></div>
+        <div class="ie-bg side-right"></div>
+        <div class="ie-bg side-bottom"></div>
+        
+        <div class="inner-wrapper">
+          <div class="popup-part login">
+            <div class="popup-title">
+              <h3>Вход</h3>
+            </div>
+
+            <div class="content">
+              <form action="action.php">
+                <input class="text-field" type="text" name="user-login" placeholder="Логин (e-mail)" value="">
+                <input class="text-field" type="password" name="user-password" placeholder="Пароль" value="">
+
+                <div class="access-nav">
+                  <a class="navigation-link">Зарегистрироваться</a>
+                  <input class="base-button small width-auto submit" type="submit" value="Войти">
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="popup-part registration">
+            <div class="popup-title">
+              <h3>Регистрация</h3>
+            </div>
+            <div class="content">
+              <form action="action.php">
+                <input class="text-field" type="text" name="user-name" placeholder="Имя" value="">
+                <input class="text-field" type="text" name="user-email" placeholder="Эл. почта" value="">
+                <input class="text-field" type="password" name="user-password" placeholder="Пароль" value="">
+                <input class="text-field" type="password" name="user-password-confirm" placeholder="Повторить пароль" value="">
+
+                <div class="access-nav">
+                  <a class="navigation-link prev">назад</a>
+                  <input class="base-button small width-auto submit" type="submit" value="Зарегистрироваться">
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="co-operation" class="popup">
+      <a href="#" class="close-button modalCloseImg inner" title="Закрыть окно"></a>
+      <div class="popup-container">
+        <div class="ie-bg angle-left-top"></div>
+        <div class="ie-bg angle-right-top"></div>
+        <div class="ie-bg angle-left-bottom"></div>
+        <div class="ie-bg angle-right-bottom"></div>
+        <div class="ie-bg side-top"></div>
+        <div class="ie-bg side-left"></div>
+        <div class="ie-bg side-right"></div>
+        <div class="ie-bg side-bottom"></div>
+
+        <div class="inner-wrapper">
+          <div class="popup-part application">
+            <div class="popup-title">
+              <h3>Для оптовых покупателей</h3>
+            </div>
+            <div class="content">
+              <p><strong>Для оптовых покупателей</strong> форменной и специальной одежды мы разработали гибкую систему скидок, позволяющую получить максимально низкую цену даже при небольших заказах.</p>
+              <p><strong>Стратегическим партнерам</strong> мы предлагаем индивидуальное ценообразование, в зависимости от объема, срока поставки и способа оплаты заказываемой продукции.</p>
+              <p><strong>Что бы начать с нами сотрудничество</strong>, заполните пожалуйста электронную форму обращения, либо свяжитесь с нами по телефону <strong>(499) 980-88-40</strong>. Наши менеджеры с удавольствиеи помогут Вам, получить полную информация и оформить заказ.</p>
+
+              <form action="action.php">
+                <input class="text-field" type="text" name="wholesaler-organization" placeholder="Организация" value="">
+                <input class="text-field" type="text" name="wholesaler-contact-name" placeholder="Контактное лицо" value="">
+                <input class="text-field" type="text" name="wholesaler-phone-number" placeholder="Телефон" value="">
+                <input class="text-field" type="text" name="wholesaler-e-mail" placeholder="Эл. Почта" value="">
+
+                <div class="access-nav">
+                  <a class="navigation-link modalCloseImg prev">назад</a>
+                  <input class="base-button small width-auto submit" type="submit" value="Отправить запрос">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Basket start -->
+    <section class="basket">
+      <a href="#" class="link">
+        <div class="description">у Вас: <span class="goods-value">3</span> товара</div>
+        <i class="marker"></i>
+      </a>
+    </section>
+    <!-- Basket end -->
+
+    <!-- Header start -->
+    <header class="base-elements">
+      <nav class="cpanel">
+        <span class="special-nav">
+          <a href="#co-operation_application" class="call-modal menu-item inner" title="Для оптовых покупателей">Оптовикам!</a>
+        </span>
+        
+        <a href="/" class="logo"><img src="images/logo.png"/></a>
+
+        <div class="base-nav">
+          <a href="#access-panel_login" title="Вход" class="call-modal menu-item inner">Вход</a>
+          <span class="menu-vseparator menu-item">|</span>
+          <a href="#" title="Помощь" class="menu-item">Помощь</a>
+          <span class="menu-vseparator menu-item">|</span>
+          <a href="#" title="Контакты" class="menu-item">Контакты</a>
+        </div>
+      </nav>
+      <section class="container">
+        <section class="tel">
+          <img class="marker" src="images/marker-tel.png">
+          <a href="#" class="number inner">8 (495) 980 44 80</a> 
+          <span class="caption"> заказ по телефону</span>
+        </section>
+
+        <section class="search-form">
+          <input type="text" name="search-word" placeholder="Поиск" value="" class="text-field search-elem">
+          <input type="submit" value="" class="submit-button search-elem">
+          <div class="support-elements"></div>
+        </section>
+      </section>
+
+    </header>
+    <!-- Header end -->
+
+    <!-- Content start -->
+    <section class="container">
+
+      <!-- Main nav start -->
+      <nav class="main-nav">
+        <ul class="list lvl-1">
+          <li class="list-item lvl-1"><a href="">Для женщин</a></li>
+          <span class="list-item lvl-1 separator">|</span>
+
+          <li class="list-item lvl-1 parent">
+            <a href="">Для мужчин</a>
+
+            <ul class="list lvl-2">
+              <li class="list-item lvl-2">
+                <a href="#">Одежда</a>
+
+                <ul class="list lvl-3">
+                  <li class="list-item lvl-3"><a href="#">Джинсы</a></li>
+                  <li class="list-item lvl-3"><a href="#">Брюки</a></li>
+                  <li class="list-item lvl-3"><a href="#">Шорты</a></li>
+                  <li class="list-item lvl-3"><a href="#">Леггинсы</a></li>
+                  <li class="list-item lvl-3"><a href="#">Юбки</a></li>
+                  <li class="list-item lvl-3"><a href="#">Платья</a></li>
+                  <li class="list-item lvl-3"><a href="#">Блузы, рубашки</a></li>
+                  <li class="list-item lvl-3"><a href="#">Топ, майка, футболка</a></li>
+                  <li class="list-item lvl-3"><a href="#">Джемперы</a></li>
+                  <li class="list-item lvl-3"><a href="#">Кардиган </a></li>
+                  <li class="list-item lvl-3"><a href="#">Вся одежда</a></li>
+                  <li class="list-item lvl-3"><a href="#">Пальто</a></li>
+                  <li class="list-item lvl-3"><a href="#">Куртки</a></li>
+                  <li class="list-item lvl-3"><a href="#">Пуховики</a></li>
+                  <li class="list-item lvl-3"><a href="#">Плащи</a></li>
+                  <li class="list-item lvl-3"><a href="#">Ветровки</a></li>
+                </ul>
+              </li>
+
+              <li class="list-item lvl-2">
+                <a href="#">Аксессуары</a>
+
+                <ul class="list lvl-3">
+                  <li class="list-item lvl-3"><a href="#">Сумки</a></li>
+                  <li class="list-item lvl-3"><a href="#">Обувь</a></li>
+                  <li class="list-item lvl-3"><a href="#">Ремни</a></li>
+                  <li class="list-item lvl-3"><a href="#">Шарфы, платки</a></li>
+                  <li class="list-item lvl-3"><a href="#">Перчатки</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <span class="list-item lvl-1 separator">|</span>
+
+          <li class="list-item lvl-1"><a href="">Бренды</a></li>
+          <span class="list-item lvl-1 separator">|</span>
+
+          <li class="list-item lvl-1"><a href="">Акции</a></li>
+          <span class="list-item lvl-1 separator">|</span>
+
+          <li class="list-item lvl-1"><a href="">Распродажа</a></li>
+          <span class="list-item lvl-1 separator">|</span>
+
+          <li class="list-item lvl-1"><a href="">Оптовикам</a></li>
+        </ul>
+      </nav>
+      <!-- Main nav end -->
+
+      <!-- Banner start -->
+      <section class="main-banner">
+
+        <!-- Slider start -->
+        <figure id="base-slider" class="slider-container slider-measurements banner-item">
+          <div class="inner-wrapper slider-measurements">
+            <div class="slider-item active">
+              <a href="#">
+                <img src="images/content/baner-img1.jpg">
+              </a>
+            </div>
+            <div class="slider-item">
+              <a href="#">
+                <img src="images/content/baner-img2.jpg">
+              </a>
+            </div>
+            <div class="slider-item">
+              <a href="#">
+                <img src="images/content/baner-img3.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="slider-switcher">
+            <!--<div class="switcher-item on">-->
+          </div>
+        </figure>
+        <!-- Slider end -->
+
+        <!-- Small banners start -->
+        <figure class="small-banner banner-item">
+          <a href="#">
+            <img src="images/content/small-banner1.gif">
+          </a>
+        </figure>
+        <figure class="small-banner banner-item">
+          <a href="#">
+            <img src="images/content/small-banner2.gif">
+          </a>
+        </figure>
+        <!-- Small banners end -->
+
+      </section>       
+      <!-- Banner end -->
+
+      <!-- Content column start-->
+      <section class="content-column">
+
+        <!-- Article start -->
+        <section class="basket-page">
+          <header class="content-header">
+            <h2>Корзина</h2>
+          </header>
+
+          <!-- Content start -->
+          <section class="content">
+            <form action="action.php">
+              <div class="ordering-results">
+                <table class="results-table">
+                  <tbody>
+                    <tr>
+                      <th class="goods">Товар</th>
+                      <th class="name">Наименование</th>
+                      <th class="price">Стоимость</th>
+                      <th class="count">Количество</th>
+                      <th class="cost">Итого</th>
+                      <th class="close"></th>
+                    </tr>
+                    <tr>
+                      <td class="goods">
+                        <figure class="goods-item-preview basket-item">
+                          <div class="inner-wrapper">
+                            <div class="img-prewiev">
+                              <div class="ie-bg"></div>
+                              <a href="#">
+                                 <img src="images/content/basket-goods-item-1.png">
+                              </a>
+                            </div>
+                          </div>
+                        </figure>
+                      </td>
+                      <td class="name">Сорочка линии SLIM FIT</td>
+                      <td class="price"><span class="value">2 360</span> руб.</td>
+                      <td class="count">
+                        <figure class="count-field-wrapper">
+                          <div class="cout-controller less"></div>
+
+                          <div class="inner-wrapper">
+                            <input type="text" class="field" data-min="1" data-max="99" name="goods-id" value="31">
+                          </div>
+                          
+                          <div class="cout-controller more"></div>
+                        </figure>
+                      </td>
+                      <td class="cost"><span class="value">7 080</span> руб.</td>
+                      <td class="close">
+                        <a href="#" class="close-button delete-basket-item inner" title="Удалить товар из корзины"></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="goods">
+                        <figure class="goods-item-preview basket-item">
+                          <div class="inner-wrapper">
+                            <div class="img-prewiev">
+                              <div class="ie-bg"></div>
+                              <a href="#">
+                                 <img src="images/content/basket-goods-item-1.png">
+                              </a>
+                            </div>
+                          </div>
+                        </figure>
+                      </td>
+                      <td class="name">Сорочка линии SLIM FIT</td>
+                      <td class="price"><span class="value">2 360</span> руб.</td>
+                      <td class="count">
+                        <figure class="count-field-wrapper">
+                          <div class="cout-controller less"></div>
+
+                          <div class="inner-wrapper">
+                            <input type="text" class="field" data-min="1" data-max="99" name="goods-id" value="5">
+                          </div>
+                          
+                          <div class="cout-controller more"></div>
+                        </figure>
+                      </td>
+                      <td class="cost"><span class="value">7 080</span> руб.</td>
+                      <td class="close">
+                        <a href="#" class="close-button delete-basket-item inner" title="Удалить товар из корзины"></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="goods">
+                        <figure class="goods-item-preview basket-item">
+                          <div class="inner-wrapper">
+                            <div class="img-prewiev">
+                              <div class="ie-bg"></div>
+                              <a href="#">
+                                 <img src="images/content/basket-goods-item-1.png">
+                              </a>
+                            </div>
+                          </div>
+                        </figure>
+                      </td>
+                      <td class="name">Сорочка линии SLIM FIT</td>
+                      <td class="price"><span class="value">2 360</span> руб.</td>
+                      <td class="count">
+                        <figure class="count-field-wrapper">
+                          <div class="cout-controller less"></div>
+
+                          <div class="inner-wrapper">
+                            <input type="text" class="field" data-min="1" data-max="99" name="goods-id" value="99">
+                          </div>
+                          
+                          <div class="cout-controller more"></div>
+                        </figure>
+                      </td>
+                      <td class="cost"><span class="value">7 080</span> руб.</td>
+                      <td class="close">
+                        <a href="#" class="close-button delete-basket-item inner" title="Удалить товар из корзины"></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="goods">
+                        <figure class="goods-item-preview basket-item">
+                          <div class="inner-wrapper">
+                            <div class="img-prewiev">
+                              <div class="ie-bg"></div>
+                              <a href="#">
+                                 <img src="images/content/basket-goods-item-1.png">
+                              </a>
+                            </div>
+                          </div>
+                        </figure>
+                      </td>                      
+                      <td class="name">Сорочка линии SLIM FIT</td>
+                      <td class="price"><span class="value">2 360</span> руб.</td>
+                      <td class="count">
+                        <figure class="count-field-wrapper">
+                          <div class="cout-controller less"></div>
+
+                          <div class="inner-wrapper">
+                            <input type="text" class="field" data-min="1" data-max="99" name="goods-id" value="1">
+                          </div>
+                          
+                          <div class="cout-controller more"></div>
+                        </figure>
+                      </td>
+                      <td class="cost"><span class="value">7 080</span> руб.</td>
+                      <td class="close">
+                        <a href="#" class="close-button delete-basket-item inner" title="Удалить товар из корзины"></a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a href="#" class="navigation-link prev">вернуться к покупкам</a>
+                <div class="total-cost">
+                  Итого: <div class="cost"><span class="value">28 320</span> руб.</div>
+                </div>
+              </div>
+
+              <div class="checkout-button-wrapper">
+                <input class="base-button checkout submit" type="submit" value="Оформить заказ">
+              </div>
+            </form>
+          </section>
+          <!-- Content end -->
+        </section>
+        <!-- Article start -->
+
+      </section>
+      <!-- Content column end-->
+
+     </section>
+    <!-- Content end -->     
+
+    <!-- footer start --> 
+    <footer class="base-elements">
+      <div class="inner-wrapper">
+        <p class="copyright">Все прова защешены &#169; интернет магазин Bersaglio Ltd.</p>
+        
+        <nav class="social-nav">
+          <a href="#" class="social-nav-item facebook"></a>
+          <a href="#" class="social-nav-item twitter"></a>
+          <a href="#" class="social-nav-item rss"></a>
+          <a href="#" class="social-nav-item favorites"></a>
+        </nav>
+
+        <section class="container">
+          <nav class="site-map">
+            <ul class="list lvl-1">
+              <li class="list-item lvl-1 parent">
+                <a href="#">Для женщин</a>
+
+                <ul class="list lvl-2">
+                  <li class="list-item lvl-2">
+                    <a href="#">Одежда</a>
+
+                    <ul class="list lvl-3">
+                      <li class="list-item lvl-3"><a href="#">Джинсы</a></li>
+                      <li class="list-item lvl-3"><a href="#">Брюки</a></li>
+                      <li class="list-item lvl-3"><a href="#">Шорты</a></li>
+                      <li class="list-item lvl-3"><a href="#">Леггинсы</a></li>
+                      <li class="list-item lvl-3"><a href="#">Юбки</a></li>
+                      <li class="list-item lvl-3"><a href="#">Платья</a></li>
+                      <li class="list-item lvl-3"><a href="#">Блузы, рубашки</a></li>
+                      <li class="list-item lvl-3"><a href="#">Топ, майка, футболка</a></li>
+                      <li class="list-item lvl-3"><a href="#">Джемперы</a></li>
+                      <li class="list-item lvl-3"><a href="#">Кардиган</a></li>
+                      <li class="list-item lvl-3"><a href="#">Пальто</a></li>
+                      <li class="list-item lvl-3"><a href="#">Куртки</a></li>
+                      <li class="list-item lvl-3"><a href="#">Пуховики</a></li>
+                      <li class="list-item lvl-3"><a href="#">Плащи</a></li>
+                      <li class="list-item lvl-3"><a href="#">Ветровки</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="list-item lvl-2">
+                    <a href="#">Аксессуары</a>
+
+                    <ul class="list lvl-3">
+                      <li class="list-item lvl-3"><a href="#">Сумки</a></li>
+                      <li class="list-item lvl-3"><a href="#">Обувь</a></li>
+                      <li class="list-item lvl-3"><a href="#">Ремни</a></li>
+                      <li class="list-item lvl-3"><a href="#">Шарфы, платки</a></li>
+                      <li class="list-item lvl-3"><a href="#">Перчатки</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="list-item lvl-1 parent">
+                <a href="#">Для мужчин</a>
+
+                <ul class="list lvl-2">
+                  <li class="list-item lvl-2">
+                    <a href="#">Одежда</a>
+
+                    <ul class="list lvl-3">
+                      <li class="list-item lvl-3"><a href="#">Джинсы</a></li>
+                      <li class="list-item lvl-3"><a href="#">Брюки</a></li>
+                      <li class="list-item lvl-3"><a href="#">Шорты</a></li>
+                      <li class="list-item lvl-3"><a href="#">Рубашки</a></li>
+                      <li class="list-item lvl-3"><a href="#">Топ, майка, футболка</a></li>
+                      <li class="list-item lvl-3"><a href="#">Джемперы</a></li>
+                      <li class="list-item lvl-3"><a href="#">Кардиган</a></li>
+                      <li class="list-item lvl-3"><a href="#">Пальто</a></li>
+                      <li class="list-item lvl-3"><a href="#">Куртки</a></li>
+                      <li class="list-item lvl-3"><a href="#">Пуховики</a></li>
+                      <li class="list-item lvl-3"><a href="#">Плащи</a></li>
+                      <li class="list-item lvl-3"><a href="#">Ветровки</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="list-item lvl-2">
+                    <a href="#">Аксессуары</a>
+
+                    <ul class="list lvl-3">
+                      <li class="list-item lvl-3"><a href="#">Сумки</a></li>
+                      <li class="list-item lvl-3"><a href="#">Обувь</a></li>
+                      <li class="list-item lvl-3"><a href="#">Ремни</a></li>
+                      <li class="list-item lvl-3"><a href="#">Шарфы, платки</a></li>
+                      <li class="list-item lvl-3"><a href="#">Перчатки</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="list-item lvl-1 parent small-list">
+                <a href="#">Бренды</a>
+
+                <ul class="list lvl-2">
+                  <li class="list-item lvl-2"><a href="#">Eterna</a></li>
+                  <li class="list-item lvl-2"><a href="#">Jupiter</a></li>
+                  <li class="list-item lvl-2"><a href="#">Pionier</a></li>
+                  <li class="list-item lvl-2"><a href="#">Otto Kern</a></li>
+                  <li class="list-item lvl-2"><a href="#">Phard</a></li>
+                  <li class="list-item lvl-2"><a href="#">Nell&#38;me</a></li>
+                  <li class="list-item lvl-2"><a href="#">Turnover</a></li>
+                  <li class="list-item lvl-2"><a href="#">Quattro piu</a></li>
+                  <li class="list-item lvl-2"><a href="#">Seventy</a></li>
+                  <li class="list-item lvl-2"><a href="#">1970</a></li>
+                </ul>
+              </li>
+
+              <li class="list-item lvl-1 parent small-list">
+                <a href="#">Акции</a>
+
+                <ul class="list lvl-2">
+                  <li class="list-item lvl-2"><a href="#">Новинки</a></li>
+                  <li class="list-item lvl-2"><a href="#">Скидки по картам банков</a></li>
+                  <li class="list-item lvl-2"><a href="#">Скидки за количество покупок</a></li>
+                  <li class="list-item lvl-2"><a href="#">Подарок к празднику</a></li>
+                </ul>
+              </li>
+
+              <li class="list-item lvl-1 parent small-list">
+                <a href="#">Распродажа</a>
+
+                <ul class="list lvl-2">
+                  <li class="list-item lvl-2"><a href="#">Скидка 30%</a></li>
+                  <li class="list-item lvl-2"><a href="#">Скидка 50%</a></li>
+                  <li class="list-item lvl-2"><a href="#">Скидка 70%</a></li>
+                  <li class="list-item lvl-2"><a href="#">Последний размер</a></li>
+                </ul>
+              </li>
+
+              <li class="list-item lvl-1 parent small-list">
+                <a href="#co-operation_application" class="call-modal inner">Оптовикам</a>
+
+                <ul class="list lvl-2">
+                  <li class="list-item lvl-2"><a href="#access-panel_registration" class="call-modal inner">Блок регистрации</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+    </footer>       
+    <!-- footer end -->
+
+    <script type="text/javascript" src="js/vendor.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
